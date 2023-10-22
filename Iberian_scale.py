@@ -74,7 +74,7 @@ def load_notes(notestep, notestep1, notescale):
     rev_interval = [0, 2, 3, 2, 1, 3, 1]
     tones_fwd, tones_rev = [], []
     
-    print(f'The frequencies in Hz of ascending notes for {notescale} in the Iberian scale')
+    print(f'The frequencies in Hz of ascending notes for {notescale} as root note in the Iberian scale')
     for note in notes_interval: 
         # print the frequency ascending notes of the scale        
         #print(rev_freq[notestep])
@@ -91,7 +91,7 @@ def load_notes(notestep, notestep1, notescale):
         tones_fwd.append(tone)
     
     print()
-    print(f'The frequencies in Hz of descending notes for {notescale} in the Iberian scale')
+    print(f'The frequencies in Hz of descending notes for {notescale} as root note in the Iberian scale')
 
     for note in rev_interval: 
         notestep1 = notestep1 - note
